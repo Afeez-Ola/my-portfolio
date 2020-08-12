@@ -29,7 +29,7 @@ button {
 a,
 li {
     text-decoration: none;
-    color: white;
+    color: #666A75;
     list-style: none;
 }
 
@@ -61,6 +61,7 @@ h1 {
 /*....... Navbar section ......*/
 
 nav {
+    margin: 30px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -75,7 +76,17 @@ nav {
     width: 30%;
 }
 
+.nav-links li a:hover {
+    color: white;
+}
+
 @media screen and (max-width: 400px) {
+    .nav-links li a {
+        margin-right: .75rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
     .nav-links li a {
         margin-right: .75rem;
     }
@@ -86,5 +97,35 @@ nav {
 
 .intro-body {
     width: 100%;
-    margin: 45px auto;
+    margin: 70px auto;
+}
+
+.intro-header h1 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+.sub-header h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgb(103, 111, 128);
+    margin-bottom: 2.37rem;
+}
+
+.intro-note {
+    width: 100%;
+    max-width: 960px;
+    padding: 0;
+    margin: 0px;
+}
+
+.intro-note p {
+    color: rgb(221, 224, 230);
+    line-height: 1.7;
+    font-size: 1.02rem;
+    font-weight: 400;
+    margin-bottom: 1.87rem;
 }
