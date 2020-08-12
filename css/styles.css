@@ -149,3 +149,21 @@ nav {
 .contact-btn:hover {
     box-shadow: rgb(230, 112, 67) 2px 4px 32px -14px;
 }
+
+.work-btn {
+    color: #e67043;
+    transition: all 0.25s ease 0s;
+    font-size: .8rem;
+    padding: .75rem 1.13rem;
+    margin-right: 20px;
+    border-radius: 7px;
+    background-color: none;
+    background: none;
+    border: none;
+    transition: all 0.25s ease 0s;
+    font-size: .8rem;
+}
+
+.work-btn:hover {
+    background: rgba(230, 112, 67, 0.082);
+}
