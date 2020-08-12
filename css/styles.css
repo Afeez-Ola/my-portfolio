@@ -130,13 +130,14 @@ nav {
     margin-bottom: 1.87rem;
 }
 
-. .button-section {
+.button-section {
     display: flex;
     flex-direction: row;
 }
 
-.orange-button button {
-    padding: .75rem .1.13rem;
+.contact-btn {
+    padding: .75rem 1.13rem;
+    margin-right: 20px;
     background-color: #E67043;
     color: #fff;
     border-radius: 7px;
@@ -145,6 +146,6 @@ nav {
     font-size: .8rem;
 }
 
-.orange-button button:hover {
+.contact-btn:hover {
     box-shadow: rgb(230, 112, 67) 2px 4px 32px -14px;
 }
