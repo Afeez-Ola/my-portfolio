@@ -49,11 +49,13 @@ h1 {
 
 #intro-page {
     height: 90vh;
+    position: relative;
+    top: 0%;
+    z-index: -1;
 }
 
 .container {
     width: 80%;
-    /* margin: 1.9rem 10rem; */
     margin: 0 auto;
 }
 
@@ -166,4 +168,11 @@ nav {
 
 .work-btn:hover {
     background: rgba(230, 112, 67, 0.082);
+}
+
+
+/*........ projects section ......*/
+
+#projects {
+    margin: 2.4rem auto;
 }
