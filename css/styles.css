@@ -176,3 +176,9 @@ nav {
 #projects {
     margin: 2.4rem auto;
 }
+
+.project-notes h6 {
+    color: #548bdd;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+}
