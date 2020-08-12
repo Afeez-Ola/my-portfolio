@@ -26,11 +26,65 @@ button {
     cursor: pointer;
 }
 
-a {}
+a,
+li {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
 
 h1,
 h2,
 h3,
 p {
     color: #ffffff;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+/*######## Intro-page section ########*/
+
+#intro-page {
+    height: 90vh;
+}
+
+.container {
+    width: 80%;
+    /* margin: 1.9rem 10rem; */
+    margin: 0 auto;
+}
+
+
+/*....... Navbar section ......*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+@media screen and (max-width: 400px) {
+    .nav-links li a {
+        margin-right: .75rem;
+    }
+}
+
+
+/*........ Intro-body section  ......*/
+
+.intro-body {
+    width: 100%;
+    margin: 45px auto;
 }
