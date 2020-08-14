@@ -172,7 +172,7 @@ nav {
 /*........ projects section ......*/
 
 #projects {
-    margin: 1.4rem auto;
+    margin: 1.4rem auto 2rem;
 }
 
 .project-notes h6 {
@@ -212,7 +212,7 @@ nav {
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 1.56rem 30px;
     width: calc(100% + 3rem);
 }
 
@@ -287,8 +287,34 @@ nav {
     }
 }
 
-@media(min-width: 700px) {
+@media(min-width: 700px) and (max-width: 900px) {
     .card {
-        width: 50%;
+        width: 40%;
     }
+}
+
+@media(min-width: 360px) and (max-width: 475px) {
+    .project-cards {
+        margin: 1.56rem -20px;
+        width: calc(100% + 3rem);
+    }
+}
+
+
+/*........ Contact section ......*/
+
+#contact {
+    margin: 12rem auto 2.24rem;
+}
+
+.contact-notes h6 {
+    color: #548bdd;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.contact-notes h2 {
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
 }
