@@ -198,10 +198,12 @@ nav {
     .project-cards {
         flex-direction: column;
     }
-
     .card {
         width: 100%;
         flex-wrap: wrap;
+    }
+    .project-info h6 {
+        width: 100%;
     }
 }
 
@@ -209,7 +211,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     margin: 0 auto;
     width: calc(100% + 3rem);
 }
