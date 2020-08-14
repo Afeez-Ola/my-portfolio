@@ -258,6 +258,7 @@ nav {
     margin: 1.56rem 1.87rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
 }
