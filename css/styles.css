@@ -351,3 +351,12 @@ nav {
     justify-content: flex-start;
     flex-wrap: wrap;
 }
+
+textarea {
+    padding: 2rem 27rem 2rem 0;
+    text-align: left;
+}
+
+textarea::placeholder {
+    font-family: open sans;
+}
