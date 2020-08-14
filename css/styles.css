@@ -26,6 +26,19 @@ button {
     cursor: pointer;
 }
 
+input {
+    padding: .45rem 10.4rem .45rem .25rem;
+}
+
+input::placeholder {
+    text-align: left;
+}
+
+input[type='text'],
+input[type='email'] {
+    margin: 1.2rem 2rem 1.2rem 0;
+}
+
 a,
 li {
     text-decoration: none;
@@ -317,4 +330,19 @@ nav {
 .contact-notes h2 {
     margin-bottom: 2rem;
     font-size: 2.2rem;
+}
+
+.contact-notes p {
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 739px;
+    color: rgb(221, 224, 230);
+    margin-bottom: .75rem;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
