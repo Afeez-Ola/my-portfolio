@@ -206,8 +206,8 @@ nav {
     .card {
         display: flex;
         width: 28%;
-        padding: 24px;
-        /* padding: 4em .9em 12em; */
+        /* padding: 24px; */
+        padding: 4em .9em 12em;
         /* padding: 2% 1% 7%; */
         font-size: 1.04rem;
         text-align: left;
