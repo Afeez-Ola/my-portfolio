@@ -205,7 +205,7 @@ nav {
     }
     .card {
         width: 28%;
-        padding-bottom: 2%;
+        padding-bottom: 1%;
         font-size: 1.04rem;
         text-align: left;
         box-shadow: rgb(0, 0, 0) 8px 8px 35px -20px;
@@ -213,7 +213,7 @@ nav {
         background: rgb(37, 41, 58);
         border-radius: 6px;
     }
-    .project-1-img {
+    .project-img {
         display: block;
         max-height: 150px;
         overflow-y: hidden;
@@ -221,19 +221,19 @@ nav {
         object-fit: cover;
         width: 100%;
     }
-    .project-1-img img {
+    .project-img img {
         object-fit: cover;
         border-radius: 7px;
         width: 100%;
     }
-    .project-1-skills {
+    .project-skills {
         margin: 25px 30px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
     }
-    .project-1-skills h3 {
+    .project-skills h3 {
         margin-right: 12px;
         padding: .35rem .75rem;
         font-size: .76rem;
@@ -241,13 +241,25 @@ nav {
         background-color: #e67043;
         border-radius: 5px;
     }
-    .project-1-info {
+    .project-info {
         margin: 0 30px;
         display: block;
         align-items: center;
     }
-    .project-1-info h6 {
+    .project-info h6 {
         color: rgb(221, 224, 230);
         font-weight: 400;
+        font-size: 1rem;
+        margin: 12px auto;
+    }
+    .project-info a button {
+        padding: .75rem 1.13rem;
+        /* margin-right: 20px; */
+        background-color: #E67043;
+        color: #fff;
+        border-radius: 7px;
+        border: none;
+        transition: all 0.25s ease 0s;
+        font-size: .8rem;
     }
 }
