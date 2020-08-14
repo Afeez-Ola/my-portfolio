@@ -204,11 +204,8 @@ nav {
         width: calc(100% + 3rem);
     }
     .card {
-        display: flex;
         width: 28%;
-        /* padding: 24px; */
-        padding: 4em .9em 12em;
-        /* padding: 2% 1% 7%; */
+        padding-bottom: 2%;
         font-size: 1.04rem;
         text-align: left;
         box-shadow: rgb(0, 0, 0) 8px 8px 35px -20px;
@@ -217,12 +214,40 @@ nav {
         border-radius: 6px;
     }
     .project-1-img {
-        max-height: 200px;
+        display: block;
+        max-height: 150px;
         overflow-y: hidden;
         overflow-x: visible;
+        object-fit: cover;
+        width: 100%;
     }
     .project-1-img img {
         object-fit: cover;
+        border-radius: 7px;
         width: 100%;
+    }
+    .project-1-skills {
+        margin: 25px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .project-1-skills h3 {
+        margin-right: 12px;
+        padding: .35rem .75rem;
+        font-size: .76rem;
+        text-transform: uppercase;
+        background-color: #e67043;
+        border-radius: 5px;
+    }
+    .project-1-info {
+        margin: 0 30px;
+        display: block;
+        align-items: center;
+    }
+    .project-1-info h6 {
+        color: rgb(221, 224, 230);
+        font-weight: 400;
     }
 }
