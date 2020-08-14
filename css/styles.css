@@ -304,6 +304,9 @@ nav {
     .card {
         width: 40%;
     }
+    input {
+        padding: .45rem 4.4rem .45rem .25rem;
+    }
 }
 
 @media(min-width: 360px) and (max-width: 475px) {
