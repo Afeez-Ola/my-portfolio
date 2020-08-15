@@ -27,7 +27,8 @@ button {
 }
 
 input {
-    padding: .45rem 10.4rem .45rem .25rem;
+    padding: .45rem 14em .45rem 0;
+    border-radius: 7px;
 }
 
 input::placeholder {
@@ -51,6 +52,10 @@ h2,
 h3,
 p {
     color: #ffffff;
+}
+
+p {
+    width: 100%;
 }
 
 h1 {
@@ -93,13 +98,7 @@ nav {
     color: white;
 }
 
-@media screen and (max-width: 400px) {
-    .nav-links li a {
-        margin-right: .75rem;
-    }
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .nav-links li a {
         margin-right: .75rem;
     }
@@ -149,7 +148,7 @@ nav {
 }
 
 .contact-btn {
-    padding: .75rem 1.13rem;
+    padding: .75em 1.13em;
     margin-right: 20px;
     background-color: #E67043;
     color: #fff;
@@ -167,7 +166,7 @@ nav {
     color: #e67043;
     transition: all 0.25s ease 0s;
     font-size: .8rem;
-    padding: .75rem 1.13rem;
+    padding: .75em 1.13em;
     margin-right: 20px;
     border-radius: 7px;
     background-color: none;
@@ -207,19 +206,6 @@ nav {
     color: rgb(221, 224, 230);
 }
 
-@media (max-width: 400px) {
-    .project-cards {
-        flex-direction: column;
-    }
-    .card {
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    .project-info h6 {
-        width: 100%;
-    }
-}
-
 .project-cards {
     display: flex;
     flex-direction: row;
@@ -230,7 +216,6 @@ nav {
 }
 
 .card {
-    /* width: 28%; */
     padding-bottom: 1%;
     font-size: 1.04rem;
     text-align: left;
@@ -306,15 +291,33 @@ nav {
     .card {
         width: 40%;
     }
-    input {
-        padding: .45rem 4.4rem .45rem .25rem;
-    }
 }
 
-@media(min-width: 360px) and (max-width: 475px) {
+@media(min-width: 320px) and (max-width: 475px) {
+    .container {
+        width: 100%;
+        margin: 0 40px;
+    }
+    .nav-links li a {
+        margin-right: .75rem;
+    }
     .project-cards {
-        margin: 1.56rem -20px;
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .project-info h6 {
+        width: 100%;
+    }
+    .project-cards {
+        margin: 1.56rem -10px;
         width: calc(100% + 3rem);
+    }
+    textarea {
+        padding: 2rem 39rem 0 0;
+        text-align: left;
     }
 }
 
@@ -353,10 +356,23 @@ nav {
 }
 
 textarea {
-    padding: 2rem 27rem 2rem 0;
+    padding: 2rem 70% 2rem 0;
     text-align: left;
+    border-radius: 7px;
 }
 
 textarea::placeholder {
     font-family: open sans;
+}
+
+#contact button {
+    padding: .75em 1.13em;
+    margin-right: 20px;
+    margin-top: 0.75rem;
+    background-color: #548bdd;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    transition: all 0.25s ease 0s;
+    font-size: .8rem;
 }
