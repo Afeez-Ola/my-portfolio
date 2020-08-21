@@ -47,6 +47,10 @@ li {
     list-style: none;
 }
 
+a:hover {
+    color: none;
+}
+
 h1,
 h2,
 h3,
@@ -288,23 +292,29 @@ nav {
         width: 100%;
         margin: 0 40px;
     }
+
     .nav-links li a {
         margin-right: .75rem;
     }
+
     .project-cards {
         flex-direction: column;
     }
+
     .card {
         width: 100%;
         flex-wrap: wrap;
     }
+
     .project-info h6 {
         width: 100%;
     }
+
     .project-cards {
         margin: 1.56rem -10px;
         width: calc(100% + 3rem);
     }
+
     textarea {
         padding: 2rem 39rem 0 0;
         text-align: left;
@@ -354,4 +364,25 @@ textarea {
     margin-top: 0.75rem;
     background-color: #548bdd;
     color: #fff;
+}
+
+footer {
+    margin-top: 50px;
+    padding-bottom: 1.2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.fab:hover {
+    color: #e67043;
 }
