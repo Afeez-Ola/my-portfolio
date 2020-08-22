@@ -76,6 +76,15 @@ button {
     border: none;
 }
 
+@media screen and (max-width: 768px) {
+
+    body,
+    html {
+        /* overflow: hidden; */
+        /* overflow-x: hidden; */
+    }
+}
+
 
 /*######## Intro-page section ########*/
 
@@ -376,13 +385,16 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .fab {
     margin-right: 20px;
     font-size: 30px;
+    /* background-color: #E67043; */
+    color: #E67043;
 }
 
 .fab:hover {
-    color: #e67043;
+    box-shadow: rgb(230, 112, 67) 2px 4px 32px -14px;
 }
