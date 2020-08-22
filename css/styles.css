@@ -310,8 +310,7 @@ nav {
         width: calc(100% + 3rem);
     }
     textarea {
-        padding: 2rem 39rem 0 0;
-        text-align: left;
+        /* padding: 2rem 39rem 0 0; */
     }
 }
 
@@ -349,7 +348,7 @@ nav {
 }
 
 textarea {
-    padding: 2rem 70% 2rem 0;
+    /* padding: 2rem 70% 2rem 0; */
     text-align: left;
     border-radius: 7px;
 }
