@@ -76,14 +76,6 @@ button {
     border: none;
 }
 
-@media screen and (max-width: 400px) {
-    body,
-    html {
-        /* overflow: hidden; */
-        overflow-x: hidden;
-    }
-}
-
 
 /*######## Intro-page section ########*/
 
