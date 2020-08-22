@@ -76,12 +76,11 @@ button {
     border: none;
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 400px) {
     body,
     html {
         /* overflow: hidden; */
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
 }
 
@@ -301,29 +300,23 @@ nav {
         width: 100%;
         margin: 0 40px;
     }
-
     .nav-links li a {
         margin-right: .75rem;
     }
-
     .project-cards {
         flex-direction: column;
     }
-
     .card {
         width: 100%;
         flex-wrap: wrap;
     }
-
     .project-info h6 {
         width: 100%;
     }
-
     .project-cards {
         margin: 1.56rem -10px;
         width: calc(100% + 3rem);
     }
-
     textarea {
         padding: 2rem 39rem 0 0;
         text-align: left;
