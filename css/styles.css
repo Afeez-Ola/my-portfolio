@@ -372,6 +372,11 @@ footer {
     margin: 0 auto;
 }
 
+.link a:hover {
+    color: #E67043;
+    box-shadow: rgb(230, 112, 67) 2px 4px 32px -14px;
+}
+
 .fab {
     margin-right: 20px;
     font-size: 30px;
